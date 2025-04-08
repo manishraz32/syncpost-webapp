@@ -1,19 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
-import {
-  Share2,
-  BarChart3,
-  Calendar,
-  Clock,
-  CheckCircle2,
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Youtube,
-} from "lucide-react";
+import { Share2 } from "lucide-react";
 
 export default function Home() {
   return (
